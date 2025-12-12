@@ -1,20 +1,3 @@
-name: CI Example
-
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Run Python script
-      run: python3 app.py
-
         name: CI Pipeline
 
 on:
